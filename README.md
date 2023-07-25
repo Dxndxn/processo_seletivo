@@ -3,14 +3,14 @@ Processo Seletivo - Opinion Box
 
 ## ATENÇÃO
 *******
-Para o funcionamento correto do sistema, o arquivo 'CONSTANTS.PHP' localizado em 'processo_seletivo/funcoes/constants.php' deve ser alterado com os respectivos itens:
+  >*Para o funcionamento correto do sistema, o arquivo 'CONSTANTS.PHP' localizado em 'processo_seletivo/funcoes/constants.php' deve ser alterado com os respectivos itens:
 
-DEFINE('urlOnline', 'http://127.0.0.1/processo_seletivo/');  --- URL /NOME DA PASTA NO QUAL O SISTEMA IRÁ RODAR.
-DEFINE('pastaBase', 'processo_seletivo'); /NOME DA PASTA NO QUAL O SISTEMA IRÁ RODAR.
+  >*DEFINE('urlOnline', 'http://127.0.0.1/processo_seletivo/');  --- URL /NOME DA PASTA NO QUAL O SISTEMA IRÁ RODAR.
+  >*DEFINE('pastaBase', 'processo_seletivo'); /NOME DA PASTA NO QUAL O SISTEMA IRÁ RODAR.
 
-Além, da importação do banco de dados para que os registros sejam listados. Sendo que, para a alteração do mesmo, altere o arquivo localizado em 'processo_seletivo/connection.php'
+  >*Além, da importação do banco de dados para que os registros sejam listados. Sendo que, para a alteração do mesmo, altere o arquivo localizado em 'processo_seletivo/connection.php'
 
-self::$instance = new PDO('mysql:host=localhost;dbname=processo_seletivo;charset=utf8', 'root', '', $pdo_options); --- DBNAME = NOME DO BANCO DE DADOS
+  >*self::$instance = new PDO('mysql:host=localhost;dbname=processo_seletivo;charset=utf8', 'root', '', $pdo_options); --- DBNAME = NOME DO BANCO DE DADOS
 
 
 
