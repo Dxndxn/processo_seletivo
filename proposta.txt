@@ -1,0 +1,19 @@
+Você deverá desenvolver uma tela para cadastro de clientes conforme orientações
+abaixo:
+
+1. Criar uma tela de cadastro informando: nome completo, CPF, CEP, endereço e número, bairro, 
+cidade e estado;
+2. O Campo CPF deve ter a verificação se é um número válido;
+3. Criar uma integração com a API Busca CEP com os dados do CEP para completar o endereço;
+4. Gravar no banco de dados as informações do cliente e gravar em uma outra estrutura os CEP de 
+cada bairro. Sendo que um bairro pode ter vários CEP;
+5. Ao concluir cadastro, redirecionar o usuário para a listagem dos clientes cadastrados. Exibir na 
+listagem Nome, CPF e CEP;
+6. Criar ação para editar e deletar registro;
+7. Registrar pelo menos 10 cadastros para ter dados suficientes para relatório.
+Agora, para finalizar a tarefa, você deverá desenvolver relatórios com as informações dos clientes
+para melhor visualização, conforme abaixo:
+1. Implementar relatório com filtro: Nome e CPF;
+2. Listar os dados do cliente: Identidade, Nome, CPF, CEP, endereço, número, bairro, cidade e estado;
+3. Listar a quantidade de CEP que cada bairro possui;
+4. Listar apenas os bairros com mais de um CEP.
