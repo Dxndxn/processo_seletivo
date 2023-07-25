@@ -19,6 +19,7 @@ self::$instance = new PDO('mysql:host=localhost;dbname=processo_seletivo;charset
   >*sistema foi desenvolvido no padrão MVC (Models, Views e Controllers), as Models são responsáveis pelas requisições no banco de dados, onde há um CRUD que estabelece o seguinte padrão: 
 
 - READ
+  
   >*A visualização dos dados, permite a analise dos dados de todos os clientes cadastrados, além dos bairros que possuem mais de um CEP associados a eles. 
 
 - CREATE 
