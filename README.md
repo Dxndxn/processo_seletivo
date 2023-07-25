@@ -1,7 +1,7 @@
 # processo_seletivo
 Processo Seletivo - Opinion Box
 
--------- ATENÇÃO / ALTERAÇÕES NECESSARIAS PARA FUNCIONAMENTO DO SISTEMA --------
+-- ATENÇÃO
 Para o funcionamento correto do sistema, o arquivo 'CONSTANTS.PHP' localizado em 'processo_seletivo/funcoes/constants.php' deve ser alterado com os respectivos itens:
 
 DEFINE('urlOnline', 'http://127.0.0.1/processo_seletivo/');  --- URL /NOME DA PASTA NO QUAL O SISTEMA IRÁ RODAR.
@@ -13,7 +13,7 @@ self::$instance = new PDO('mysql:host=localhost;dbname=processo_seletivo;charset
 
 
 
--------- SOBRE O SISTEMA --------
+-- SOBRE O SISTEMA 
 O sistema foi desenvolvido no padrão MVC (Models, Views e Controllers), as Models são responsáveis pelas requisições no banco de dados, onde há um CRUD que estabelece o seguinte padrão: 
 
 - READ
